@@ -34,6 +34,8 @@ public protocol QRCodeReaderDisplayable {
   /// A cancel button.
   var cancelButton: UIButton? { get }
 
+  var titleLabel: UILabel? { get }
+    
   /// A switch camera button.
   var switchCameraButton: UIButton? { get }
 

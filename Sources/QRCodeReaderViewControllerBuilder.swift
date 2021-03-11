@@ -59,6 +59,11 @@ public final class QRCodeReaderViewControllerBuilder {
    Flag to know whether the view controller start scanning the codes when the view will appear.
    */
   public var startScanningAtLoad = true
+    
+    public var showTitleLabel: Bool = true
+    public var qrTextOverlay: String?
+    public var qrTextFont: UIFont?
+    public var qrTextColor: UIColor = .gray
 
   /**
    Flag to display the cancel button.
